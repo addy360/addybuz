@@ -1,9 +1,7 @@
-const Home = () => {
-  return (
-    <div>
-      <h4>Welcome to addyBuz, an e-commerce site</h4>
-    </div>
-  );
-}
+import Layout from "../components/Layouts";
 
-export default Home
+const Home = () => {
+  return <Layout></Layout>;
+};
+
+export default Home;

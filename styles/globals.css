@@ -1,16 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+:root {
+  --primary: hsl(201, 35%, 16%);
+}
+
 html,
 body {
-  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main_nav_content,
+.cat_menu_container,
+.header_search_button,
+.cart_count {
+  background-color: var(--primary);
+}
+
+.logo a {
+  color: var(--primary);
+}
+
+.top_bar_contact_item {
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top_bar_contact_item p {
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding-left: 1rem;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.page_menu_content {
+  background-color: var(--primary);
 }
 
-* {
-  box-sizing: border-box;
+.standard_dropdown li a:hover,
+.wishlist_text a:hover,
+.cart_text a:hover {
+  color: rgb(129, 65, 65);
+}
+
+.menu_contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.menu_contact_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_contact_item p {
+  margin: 0;
+  padding-left: 1rem;
 }
