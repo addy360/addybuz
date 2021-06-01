@@ -93,9 +93,13 @@ body {
 .char_item {
   box-shadow: var(--b-shadow);
 }
-.characteristics {
-}
-
 .popular_categories_slider_container {
   box-shadow: var(--b-shadow);
+}
+
+.cat_menu_container ul {
+  left: -200%;
+}
+.cat_menu_container:hover .cat_menu {
+  left: 0;
 }
