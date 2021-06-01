@@ -103,3 +103,10 @@ body {
 .cat_menu_container:hover .cat_menu {
   left: 0;
 }
+
+.new_arrivals_title {
+  z-index: 1000;
+  color: var(--primary);
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -144,10 +144,12 @@ $(document).ready(function () {
   function initTabLines() {
     if ($(".tabs").length) {
       var tabs = $(".tabs");
+
       tabs.each(function () {
         var tabsItem = $(this);
         var tabsLine = tabsItem.find(".tabs_line span");
         var tabGroup = tabsItem.find("ul li");
+        if (!tabGroup.length) return;
         var posX = $(tabGroup[0]).position().left;
         tabsLine.css({ left: posX, width: $(tabGroup[0]).width() });
         tabGroup.each(function () {
