@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
 :root {
   --primary: hsl(201, 35%, 16%);
+  --primary-light: hsla(201, 34%, 16%, 0.075);
+  --secondary: hsl(0, 33%, 38%);
 }
 
 html,
@@ -15,7 +17,8 @@ body {
   background-color: var(--primary);
 }
 
-.logo a {
+.logo a,
+.cat_menu li a {
   color: var(--primary);
 }
 
@@ -41,8 +44,9 @@ body {
 
 .standard_dropdown li a:hover,
 .wishlist_text a:hover,
-.cart_text a:hover {
-  color: rgb(129, 65, 65);
+.cart_text a:hover,
+.cat_menu li a:hover {
+  color: var(--secondary);
 }
 
 .menu_contact {
@@ -61,4 +65,23 @@ body {
 .menu_contact_item p {
   margin: 0;
   padding-left: 1rem;
+}
+
+.button {
+  background-color: var(--primary);
+}
+
+.banner_content {
+  /* background-color: var(--primary-light); */
+  padding: 2rem 2rem;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.137);
+}
+
+.banner_text {
+  font-size: 3vw;
+  color: var(--secondary);
+}
+
+.banner_price {
+  font-size: 2vw;
 }
