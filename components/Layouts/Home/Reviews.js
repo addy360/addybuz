@@ -14,7 +14,7 @@ const Reviews = () => {
   return (
     <div className="reviews">
       <div className="container">
-        <div className="row">
+        <div className="row reviews__row">
           <div className="col">
             <div className="reviews_title_container">
               <h3 className="reviews_title">Latest Reviews</h3>
