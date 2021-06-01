@@ -1,5 +1,6 @@
 import Layout from "../components/Layouts";
 import Banner from "../components/Layouts/Home/Banner";
+import BestSales from "../components/Layouts/Home/BestSales";
 import Categories from "../components/Layouts/Home/Categories";
 import NewArivals from "../components/Layouts/Home/NewArivals";
 import Offers from "../components/Layouts/Home/Offers";
@@ -13,6 +14,7 @@ const Home = () => {
       <WeekProducts />
       <Categories />
       <NewArivals />
+      <BestSales />
     </Layout>
   );
 };
