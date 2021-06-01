@@ -1,6 +1,6 @@
 import BestSellerItem from "./BestSellerItem";
 
-const BestSales = () => {
+const BestSales = ({ sec_title }) => {
   return (
     <div className="best_sellers">
       <div className="container">
@@ -8,7 +8,7 @@ const BestSales = () => {
           <div className="col">
             <div className="tabbed_container">
               <div className="tabs clearfix tabs-right">
-                <div className="new_arrivals_title">Hot Best Sellers</div>
+                <div className="new_arrivals_title">{sec_title}</div>
                 <div className="tabs_line">
                   <span></span>
                 </div>

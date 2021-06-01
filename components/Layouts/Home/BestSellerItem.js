@@ -28,7 +28,7 @@ const BestSellerItem = () => {
             <i></i>
           </div>
           <div className="bestsellers_price discount">
-            299,999<span>399,999</span>
+            Tzsh 299,999<span>399,999</span>
           </div>
         </div>
       </div>
