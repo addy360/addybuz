@@ -3,6 +3,7 @@
   --primary: hsl(201, 35%, 16%);
   --primary-light: hsla(201, 34%, 16%, 0.075);
   --secondary: hsl(0, 33%, 38%);
+  --b-shadow: 0 0 7px rgba(0, 0, 0, 0.137);
 }
 
 html,
@@ -36,6 +37,10 @@ body {
   justify-content: center;
   margin: 0;
   padding-left: 1rem;
+}
+
+.page_menu {
+  margin-top: 0px;
 }
 
 .page_menu_content {
@@ -72,9 +77,8 @@ body {
 }
 
 .banner_content {
-  /* background-color: var(--primary-light); */
   padding: 2rem 2rem;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.137);
+  box-shadow: var(--b-shadow);
 }
 
 .banner_text {
@@ -84,4 +88,10 @@ body {
 
 .banner_price {
   font-size: 2vw;
+}
+
+.char_item {
+  box-shadow: var(--b-shadow);
+}
+.characteristics {
 }

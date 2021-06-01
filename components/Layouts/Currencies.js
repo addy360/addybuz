@@ -1,8 +1,6 @@
-import React from "react";
-
 const Currencies = () => {
   return (
-    <React.Fragment>
+    <>
       <li>
         <a href="cart.html#">EUR Euro</a>
       </li>
@@ -12,7 +10,7 @@ const Currencies = () => {
       <li>
         <a href="cart.html#">USD US dollar</a>
       </li>
-    </React.Fragment>
+    </>
   );
 };
 

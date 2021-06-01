@@ -1,5 +1,3 @@
-import React from "react";
-
 const SearchForm = () => {
   return (
     <form action="cart.html#" className="header_search_form clearfix">

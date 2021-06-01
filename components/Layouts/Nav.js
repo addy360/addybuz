@@ -1,4 +1,3 @@
-import React from "react";
 import MainLinks from "./MainLinks";
 
 const Nav = () => {

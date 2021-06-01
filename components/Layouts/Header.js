@@ -1,4 +1,3 @@
-import React from "react";
 import Currencies from "./Currencies";
 import HeaderListing from "./HeaderListing";
 import Nav from "./Nav";

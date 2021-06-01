@@ -1,4 +1,3 @@
-import React from "react";
 import Currencies from "./Currencies";
 import MainLinks from "./MainLinks";
 
