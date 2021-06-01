@@ -1,31 +1,31 @@
 const Categories = () => {
   return (
-    <div class="popular_categories">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="popular_categories_content">
-              <div class="popular_categories_title">Popular Categories</div>
-              <div class="popular_categories_slider_nav">
-                <div class="popular_categories_prev popular_categories_nav">
-                  <i class="fas fa-angle-left ml-auto"></i>
+    <div className="popular_categories">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-3">
+            <div className="popular_categories_content">
+              <div className="popular_categories_title">Popular Categories</div>
+              <div className="popular_categories_slider_nav">
+                <div className="popular_categories_prev popular_categories_nav">
+                  <i className="fas fa-angle-left ml-auto"></i>
                 </div>
-                <div class="popular_categories_next popular_categories_nav">
-                  <i class="fas fa-angle-right ml-auto"></i>
+                <div className="popular_categories_next popular_categories_nav">
+                  <i className="fas fa-angle-right ml-auto"></i>
                 </div>
               </div>
-              <div class="popular_categories_link">
+              <div className="popular_categories_link">
                 <a href="index.html#">full catalog</a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-9">
-            <div class="popular_categories_slider_container">
-              <div class="owl-carousel owl-theme popular_categories_slider">
-                <div class="owl-item">
+          <div className="col-lg-9">
+            <div className="popular_categories_slider_container">
+              <div className="owl-carousel owl-theme popular_categories_slider">
+                <div className="owl-item">
                   <div
-                    class="
+                    className="
                         popular_category
                         d-flex
                         flex-column
@@ -33,18 +33,18 @@ const Categories = () => {
                         justify-content-center
                       "
                   >
-                    <div class="popular_category_image">
+                    <div className="popular_category_image">
                       <img src="images/popular_1.png" alt="" />
                     </div>
-                    <div class="popular_category_text">
+                    <div className="popular_category_text">
                       Smartphones & Tablets
                     </div>
                   </div>
                 </div>
 
-                <div class="owl-item">
+                <div className="owl-item">
                   <div
-                    class="
+                    className="
                         popular_category
                         d-flex
                         flex-column
@@ -52,16 +52,18 @@ const Categories = () => {
                         justify-content-center
                       "
                   >
-                    <div class="popular_category_image">
+                    <div className="popular_category_image">
                       <img src="images/popular_2.png" alt="" />
                     </div>
-                    <div class="popular_category_text">Computers & Laptops</div>
+                    <div className="popular_category_text">
+                      Computers & Laptops
+                    </div>
                   </div>
                 </div>
 
-                <div class="owl-item">
+                <div className="owl-item">
                   <div
-                    class="
+                    className="
                         popular_category
                         d-flex
                         flex-column
@@ -69,16 +71,16 @@ const Categories = () => {
                         justify-content-center
                       "
                   >
-                    <div class="popular_category_image">
+                    <div className="popular_category_image">
                       <img src="images/popular_3.png" alt="" />
                     </div>
-                    <div class="popular_category_text">Gadgets</div>
+                    <div className="popular_category_text">Gadgets</div>
                   </div>
                 </div>
 
-                <div class="owl-item">
+                <div className="owl-item">
                   <div
-                    class="
+                    className="
                         popular_category
                         d-flex
                         flex-column
@@ -86,18 +88,18 @@ const Categories = () => {
                         justify-content-center
                       "
                   >
-                    <div class="popular_category_image">
+                    <div className="popular_category_image">
                       <img src="images/popular_4.png" alt="" />
                     </div>
-                    <div class="popular_category_text">
+                    <div className="popular_category_text">
                       Video Games & Consoles
                     </div>
                   </div>
                 </div>
 
-                <div class="owl-item">
+                <div className="owl-item">
                   <div
-                    class="
+                    className="
                         popular_category
                         d-flex
                         flex-column
@@ -105,10 +107,10 @@ const Categories = () => {
                         justify-content-center
                       "
                   >
-                    <div class="popular_category_image">
+                    <div className="popular_category_image">
                       <img src="images/popular_5.png" alt="" />
                     </div>
-                    <div class="popular_category_text">Accessories</div>
+                    <div className="popular_category_text">Accessories</div>
                   </div>
                 </div>
               </div>

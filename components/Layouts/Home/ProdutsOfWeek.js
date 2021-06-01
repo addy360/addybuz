@@ -19,8 +19,8 @@ const ProdutsOfWeek = () => {
       <div className="deals_title">Deals of the Week</div>
       <div className="deals_slider_container">
         <div className="owl-carousel owl-theme deals_slider">
-          {products.map((product) => (
-            <ProductOfWeek product={product} />
+          {products.map((product, i) => (
+            <ProductOfWeek product={product} key={i} />
           ))}
         </div>
       </div>

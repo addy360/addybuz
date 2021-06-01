@@ -121,3 +121,21 @@ body {
   border: solid 1px var(--primary-light);
   box-shadow: 0 1px 5px var(--primary-light);
 }
+
+.footer_phone {
+  color: var(--primary);
+}
+
+.footer_social ul li:hover i,
+.footer_list li a:hover {
+  color: var(--secondary);
+}
+
+.product_cart_button {
+  background: var(--primary);
+}
+
+.product_cart_button:hover {
+  background: var(--primary-light);
+  color: var(--secondary);
+}
