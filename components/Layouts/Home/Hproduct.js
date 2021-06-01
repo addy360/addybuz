@@ -35,7 +35,6 @@ const Hproduct = ({ product }) => {
           <div className="product_color">
             <input
               type="radio"
-              checked
               name="product_color"
               style={{ background: "#b19c83" }}
             />

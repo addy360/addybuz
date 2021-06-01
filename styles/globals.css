@@ -95,3 +95,7 @@ body {
 }
 .characteristics {
 }
+
+.popular_categories_slider_container {
+  box-shadow: var(--b-shadow);
+}
