@@ -72,7 +72,8 @@ body {
   padding-left: 1rem;
 }
 
-.button {
+.button,
+.newsletter_button {
   background-color: var(--primary);
 }
 
@@ -109,4 +110,14 @@ body {
   color: var(--primary);
   left: 50%;
   transform: translateX(-50%);
+}
+
+.newsletter_unsubscribe_link a,
+.newsletter_input {
+  color: var(--primary);
+}
+
+.newsletter_input:focus {
+  border: solid 1px var(--primary-light);
+  box-shadow: 0 1px 5px var(--primary-light);
 }
