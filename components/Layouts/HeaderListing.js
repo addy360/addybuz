@@ -8,7 +8,7 @@ const HeaderListing = () => {
           <div className="col-lg-2 col-sm-3 col-3 order-1">
             <div className="logo_container">
               <div className="logo">
-                <a href="cart.html#">AddyBuz</a>
+                <a href="/">AddyBuz</a>
               </div>
             </div>
           </div>
