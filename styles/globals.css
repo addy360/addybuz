@@ -168,3 +168,33 @@ body {
 
   color: var(--primary);
 }
+
+/* BLOGS */
+
+.blog_post {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.blog_post:hover .blog_button {
+  bottom: 0;
+  box-shadow: var(--b-shadow);
+}
+
+.blog_button {
+  background: var(--primary);
+  top: unset;
+  bottom: -100%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.25s;
+}
+
+.blog_button:hover {
+  background-color: var(--primary);
+}
+
+.blog__row {
+  padding: 3vw;
+  box-shadow: var(--b-shadow);
+}

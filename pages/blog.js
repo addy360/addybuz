@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import Layout from "../components/Layouts";
 import Home from "../components/Layouts/blog/Home";
+import Blogs from "../components/Layouts/blog/Index";
 
 const Blog = () => {
   return (
@@ -20,6 +21,7 @@ const Blog = () => {
         />
       </Head>
       <Home />
+      <Blogs />
     </Layout>
   );
 };
