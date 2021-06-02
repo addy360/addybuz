@@ -1,6 +1,6 @@
 import MainLinks from "./MainLinks";
 
-const Nav = () => {
+const Nav = ({ menuOpen, setMenuOpen }) => {
   return (
     <nav className="main_nav">
       <div className="row">
@@ -98,7 +98,12 @@ const Nav = () => {
                         justify-content-end
                       "
               >
-                <div className="menu_burger">
+                <div
+                  onClick={() => {
+                    setMenuOpen(!menuOpen);
+                  }}
+                  className="menu_burger"
+                >
                   <div className="menu_trigger_text">menu</div>
                   <div className="cat_burger menu_burger_inner">
                     <span></span>

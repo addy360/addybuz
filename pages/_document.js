@@ -68,9 +68,9 @@ export default class CustomDocument extends Document {
           <script src="/static/plugins/easing/easing.js"></script>
 
           <script src="/static/js/custom.js"></script>
-          <script src="/static/js/blog_custom.js"></script>
-          <script src="/static/js/contact_custom.js"></script>
-          <script src="/static/js/blog_single_custom.js"></script>
+          {/* <script src="/static/js/blog_custom.js"></script> */}
+          {/* <script src="/static/js/contact_custom.js"></script> */}
+          {/* <script src="/static/js/blog_single_custom.js"></script> */}
         </body>
       </Html>
     );

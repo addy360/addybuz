@@ -1,13 +1,16 @@
 import Currencies from "./Currencies";
 import MainLinks from "./MainLinks";
 
-const PageMenu = () => {
+const PageMenu = ({ menuOpen }) => {
   return (
     <div className="page_menu">
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="page_menu_content">
+            <div
+              className="page_menu_content"
+              style={{ height: menuOpen && "auto" }}
+            >
               <div className="page_menu_search">
                 <form action="cart.html#">
                   <input

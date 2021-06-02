@@ -1,9 +1,12 @@
+import { useState } from "react";
 import Currencies from "./Currencies";
 import HeaderListing from "./HeaderListing";
 import Nav from "./Nav";
 import PageMenu from "./PageMenu";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="header">
       <div className="top_bar">
@@ -48,8 +51,8 @@ const Header = () => {
         </div>
       </div>
       <HeaderListing />
-      <Nav />
-      <PageMenu />
+      <Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <PageMenu menuOpen={menuOpen} />
     </header>
   );
 };
