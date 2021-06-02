@@ -36,6 +36,7 @@ $(document).ready(function () {
       var placeholder = $(".custom_dropdown_placeholder");
       var list = $(".custom_list");
     }
+    if (!placeholder) return;
     placeholder.on("click", function (ev) {
       if (list.hasClass("active")) {
         list.removeClass("active");

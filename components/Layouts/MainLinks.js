@@ -1,21 +1,29 @@
+import Link from "next/link";
+
 const MainLinks = ({ cls }) => {
   const modifier = cls || "";
   return (
     <>
       <li className={modifier}>
-        <a href="index.html">
-          Home<i className="fa fa-angle-down"></i>
-        </a>
+        <Link href="/">
+          <a>
+            home<i className="fa fa-angle-down"></i>
+          </a>
+        </Link>
       </li>
       <li className={modifier}>
-        <a href="blog.html">
-          blog<i className="fa fa-angle-down"></i>
-        </a>
+        <Link href="/blog">
+          <a>
+            blog<i className="fa fa-angle-down"></i>
+          </a>
+        </Link>
       </li>
       <li className={modifier}>
-        <a href="contact.html">
-          contact<i className="fa fa-angle-down"></i>
-        </a>
+        <Link href="/contact">
+          <a>
+            contact<i className="fa fa-angle-down"></i>
+          </a>
+        </Link>
       </li>
     </>
   );
