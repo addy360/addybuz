@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Layout from "../components/Layouts";
 import Banner from "../components/Layouts/Home/Banner";
 import BestSales from "../components/Layouts/Home/BestSales";
@@ -11,6 +12,9 @@ import WeekProducts from "../components/Layouts/Home/WeekProducts";
 const Home = () => {
   return (
     <Layout>
+      <Head>
+        <title>AddyBuz | Home</title>
+      </Head>
       <Banner />
       <Offers />
       <WeekProducts />

@@ -144,3 +144,9 @@ body {
   box-shadow: 0 1px 5px var(--primary-light);
   padding-top: 1rem;
 }
+
+/* CONTACT PAGE */
+
+.contact_info_item {
+  box-shadow: var(--b-shadow);
+}
