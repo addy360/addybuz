@@ -66,7 +66,10 @@ export default class CustomDocument extends Document {
           <script src="/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
           <script src="/static/plugins/slick-1.8.0/slick.js"></script>
           <script src="/static/plugins/easing/easing.js"></script>
+
           <script src="/static/js/custom.js"></script>
+          <script src="/static/js/blog_custom.js"></script>
+          <script src="/static/js/contact_custom.js"></script>
         </body>
       </Html>
     );
