@@ -5,22 +5,16 @@ const MainLinks = ({ cls }) => {
   return (
     <>
       <li className={modifier}>
-        <a href="/">
-          home<i className="fa fa-angle-down"></i>
-        </a>
+        <a href="/">home</a>
       </li>
       <li className={modifier}>
         <Link href="/blog">
-          <a>
-            blog<i className="fa fa-angle-down"></i>
-          </a>
+          <a>blog</a>
         </Link>
       </li>
       <li className={modifier}>
         <Link href="/contact">
-          <a>
-            contact<i className="fa fa-angle-down"></i>
-          </a>
+          <a>contact us</a>
         </Link>
       </li>
     </>

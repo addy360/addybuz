@@ -149,4 +149,22 @@ body {
 
 .contact_info_item {
   box-shadow: var(--b-shadow);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.contact_info_item:hover {
+  box-shadow: var(--b-shadow);
+  background-color: var(--primary-light);
+}
+
+.contact_form_container {
+  padding: 4vw;
+  box-shadow: var(--b-shadow);
+}
+
+.input_field {
+  border: solid 1px var(--primary-light);
+
+  color: var(--primary);
 }

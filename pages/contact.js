@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/Layouts";
+import ContactForm from "../components/Layouts/contact/ContactForm";
 import ContactInfo from "../components/Layouts/contact/ContactInfo";
 const Contact = () => {
   return (
@@ -18,6 +19,7 @@ const Contact = () => {
         <title>AddyBuz | Contact Us</title>
       </Head>
       <ContactInfo />
+      <ContactForm />
     </Layout>
   );
 };

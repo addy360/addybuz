@@ -23,7 +23,7 @@ const ContactInfo = () => {
                   "
               >
                 <div className="contact_info_image">
-                  <img src="images/contact_1.png" alt="" />
+                  <i className="fas fa-phone-square fa-3x"></i>
                 </div>
                 <div className="contact_info_content">
                   <div className="contact_info_title">Phone</div>
@@ -41,7 +41,7 @@ const ContactInfo = () => {
                   "
               >
                 <div className="contact_info_image">
-                  <img src="images/contact_2.png" alt="" />
+                  <i className="fas fa-at fa-3x"></i>
                 </div>
                 <div className="contact_info_content">
                   <div className="contact_info_title">Email</div>
@@ -59,7 +59,7 @@ const ContactInfo = () => {
                   "
               >
                 <div className="contact_info_image">
-                  <img src="images/contact_3.png" alt="" />
+                  <i className="fas fa-street-view fa-3x"></i>
                 </div>
                 <div className="contact_info_content">
                   <div className="contact_info_title">Address</div>
