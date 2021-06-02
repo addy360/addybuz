@@ -1,8 +1,8 @@
 import Head from "next/head";
 
-import Layout from "../components/Layouts";
-import Home from "../components/Layouts/blog/Home";
-import Blogs from "../components/Layouts/blog/Index";
+import Layout from "../../components/Layouts";
+import Home from "../../components/Layouts/blog/Home";
+import Blogs from "../../components/Layouts/blog/Index";
 
 const Blog = () => {
   return (
@@ -21,7 +21,7 @@ const Blog = () => {
         />
       </Head>
       <Home />
-      <Blogs />
+      <Blogs postItems={20} />
     </Layout>
   );
 };

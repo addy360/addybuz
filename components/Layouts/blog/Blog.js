@@ -1,3 +1,4 @@
+import Link from "next/link";
 const Blog = () => {
   return (
     <div className="blog_post">
@@ -10,7 +11,9 @@ const Blog = () => {
         malesuada.
       </div>
       <div className="blog_button">
-        <a href="blog_single">Continue Reading</a>
+        <Link href="/blog/blog_single">
+          <a>Continue Reading</a>
+        </Link>
       </div>
     </div>
   );

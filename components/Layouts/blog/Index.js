@@ -1,6 +1,7 @@
 import Blog from "./Blog";
 
-const Blogs = () => {
+const Blogs = ({ postItems }) => {
+  const blogs = Array(postItems).fill(2);
   return (
     <div className="blog">
       <div className="container">
@@ -15,11 +16,9 @@ const Blogs = () => {
                   justify-content-between
                 "
             >
-              {Array(10)
-                .fill(2)
-                .map((_, i) => (
-                  <Blog key={i} />
-                ))}
+              {blogs.map((_, i) => (
+                <Blog key={i} />
+              ))}
             </div>
           </div>
         </div>
